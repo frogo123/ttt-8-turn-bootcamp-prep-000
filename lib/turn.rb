@@ -43,7 +43,7 @@ def turn(board)
     puts "Please try a different position"
     turn(board)
   else
-    #move(board, index, character)
+    move(board, index)
   end
   display_board(board)
 end
